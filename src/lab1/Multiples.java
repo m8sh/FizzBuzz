@@ -5,6 +5,9 @@ public class Multiples {
         ;
     }
 
+    public static int multiples() {
+        return multiples(1000, 3 ,5);
+    }
     public static int multiples(int n, int a, int b) {
         int j = 1;
         int k = 0;
